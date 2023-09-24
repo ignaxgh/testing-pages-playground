@@ -1,0 +1,22 @@
+.router-outlet {
+    width: calc(100% - 32px) !important;
+    /*background: none !important;*/
+    background-color: rgba(255,255,255,0) !important;
+    height: 700px;
+  }
+  
+.sidenav-content{
+    background-image: url("./test-texture.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.content-placeholder{
+    width: 50%;
+    height: 50%;
+    background-color: #000000;
+}
